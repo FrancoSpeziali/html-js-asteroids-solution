@@ -10,7 +10,7 @@
 
 4. Remove the margin for the `<body>` tag
 
-5. Set the background image to the `space.png` image
+5. Set the `images/space.png` image as the background image for the body
 
 6. Make the background image repeat across the page
 
