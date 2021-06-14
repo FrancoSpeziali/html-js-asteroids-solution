@@ -158,6 +158,11 @@ One asteroid is not enough! Let's add more, to make it more interesting.
 
 ## Assignment 10 - What other improvements would you make?
 
+So far it's looking great, but what if we want to take it further?
+
 1. Add a title to the page
 
 2. Clean up the styles
+
+3. Let's add a little "bounce" to the player when they move the character using the keyboard.
+   - Create a new CSS animation
