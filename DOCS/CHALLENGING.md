@@ -1,6 +1,6 @@
 # Challenging Difficulty
 
-## Assignment 1 - Setting the Space Background (CSS)
+## Task 1 - Setting the Space Background (CSS)
 
 1. Create a CSS file in the `/styles` folder, and import it into your `index.html` file
 
@@ -12,7 +12,7 @@
 
 5. Make the background image repeat across the page
 
-## Assignment 2 - Animating the background (CSS)
+## Task 2 - Animating the background (CSS)
 
 ![Space background](space-background.gif)
 
@@ -28,7 +28,7 @@ In your CSS file:
 
 > Hint: Check the file dimensions for the image `space.png` and move the background in pixels (`px`), not percentages (`%`)
 
-## Assignment 3 - Adding the player (JavaScript & CSS)
+## Task 3 - Adding the player (JavaScript & CSS)
 
 ![Player](player.gif)
 
@@ -46,7 +46,7 @@ A Class helps us to organise common functions together, by "grouping" them toget
 
 When you run the code `new Player()` you should see your player character on the screen.
 
-## Assignment 4 - Player movement (JavaScript)
+## Task 4 - Player movement (JavaScript)
 
 Currently the player character is static (it does not move) - but we are going to change this. We want to allow the user to control the "player" character by using their keyboard.
 
@@ -54,7 +54,7 @@ Currently the player character is static (it does not move) - but we are going t
 
 > Hint: Create methods in your class to control movement
 
-## Assignment 5 - Adding an asteroid (JavaScript & CSS)
+## Task 5 - Adding an asteroid (JavaScript & CSS)
 
 ![Asteroid](asteroid.gif)
 
@@ -68,7 +68,7 @@ Just as you did for the player character, we will use an ES6 class for the aster
 
 When you run the code `new Asteroid()` you should see a new asteroid in the browser.
 
-## Assignment 6 - Giving a behaviour to the asteroid
+## Task 6 - Giving a behaviour to the asteroid
 
 The asteroid doesn't look so fun when it doesn't move.
 
@@ -78,7 +78,7 @@ Let's make it move.
 
 > Hint: Don't put your logic in one method. Separate it into multiple methods, and use class properties to share information between them
 
-## Assignment 7 - Remove the asteroid
+## Task 7 - Remove the asteroid
 
 We can't keep the asteroid on the screen forever. Once it reaches the far left of the browser, we must remove it from the DOM. We do this to prevent from consuming too many resources in the browser.
 
@@ -86,18 +86,18 @@ We can't keep the asteroid on the screen forever. Once it reaches the far left o
 
 > Hint: Don't put your logic in one method. Separate it into multiple methods, and use class properties to share information between them
 
-## Assignment 8 - Multiple asteroids
+## Task 8 - Multiple asteroids
 
 One asteroid is not enough! Let's add more, to make it more interesting.
 
 1. Add a new asteroid (or multiple asteroids) in the browser at an interval of your choosing.
 
-## Assignment 9 - What other improvements would you make?
+## Task 9 - What other improvements would you make?
 
 1. Add a title to the page
 
 2. Clean up the styles
 
-## Assignment 10 - Collision!
+## Task 10 - Collision!
 
 How might you detect if a collision occurs between an asteroid and the player?

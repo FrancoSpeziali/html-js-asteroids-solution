@@ -1,6 +1,6 @@
 # Normal Difficulty
 
-## Assignment 1 - Setting the Space Background (CSS)
+## Task 1 - Setting the Space Background (CSS)
 
 1. Create a CSS file inside the `/styles` folder
 
@@ -14,7 +14,7 @@
 
 6. Make the background image repeat across the page
 
-## Assignment 2 - Animating the background (CSS)
+## Task 2 - Animating the background (CSS)
 
 ![Space background](space-background.gif)
 
@@ -34,7 +34,7 @@ In your CSS file:
 
 > Hint: Check the file dimensions for the image `space.png` and move the background in pixels (`px`), not percentages (`%`)
 
-## Assignment 3 - Adding the player (JavaScript)
+## Task 3 - Adding the player (JavaScript)
 
 ![Player](player.gif)
 
@@ -56,7 +56,7 @@ A Class helps us to organise common functions together, by "grouping" them toget
 
 5. Update your code so that it attaches your `node` property to the `<body>` tag automatically, when the ES6 class is instantiated with the `new` keyword
 
-## Assignment 4 - Adding the player (CSS)
+## Task 4 - Adding the player (CSS)
 
 1. Create a CSS style for this DOM object which includes the image `/images/spaceship.png` as the element's background image. Other CSS properties which you might like to think about are `width` and `height`, `background-size` and perhaps `background-repeat`.
 
@@ -68,7 +68,7 @@ A Class helps us to organise common functions together, by "grouping" them toget
 
 When you run the code `new Player()` in your JavaScript you should see your player character on the screen.
 
-## Assignment 5 - Player movement (JavaScript)
+## Task 5 - Player movement (JavaScript)
 
 Currently the player character is static (it does not move) - but we are going to change this. We want to allow the user to control the "player" character by using their keyboard.
 
@@ -102,7 +102,7 @@ Currently the player character is static (it does not move) - but we are going t
 
     > Hint: Don't forget your class property, `node` is shared throughout the class - which means all your methods can read it.
 
-## Assignment 6 - Adding an asteroid (JavaScript & CSS)
+## Task 6 - Adding an asteroid (JavaScript & CSS)
 
 ![Asteroid](asteroid.gif)
 
@@ -128,7 +128,7 @@ Just as you did for the player character, we will use an ES6 class for the aster
 
 When you run the code `new Asteroid()` you should see a new asteroid in the browser.
 
-## Assignment 7 - Giving a behaviour to the asteroid
+## Task 7 - Giving a behaviour to the asteroid
 
 The asteroid doesn't look so fun when it doesn't move.
 
@@ -138,7 +138,7 @@ Let's make it move.
 
     > Hint: Don't put your logic in one method. Separate it into multiple methods, and use class properties to share information between them
 
-## Assignment 8 - Remove the asteroid
+## Task 8 - Remove the asteroid
 
 We can't keep the asteroid on the screen forever. Once it reaches the far left of the browser, we must remove it from the DOM. We do this to prevent from consuming too many resources in the browser.
 
@@ -146,17 +146,17 @@ We will checking the X position of the asteroid (CSS `right` property). Once it 
 
 1. Create a `destroy` method. Use the DOM `remove()` method to remove the `node` DOM object from the DOM.
 
-2. In the `setInterval` function you created in Assignment 6, check the x position of the element. The  CSS `right` property. If it is greater than the width of the `<body>` tag (use `document.body.clientWidth`), then call the `destroy()` method.
+2. In the `setInterval` function you created in Task 6, check the x position of the element. The  CSS `right` property. If it is greater than the width of the `<body>` tag (use `document.body.clientWidth`), then call the `destroy()` method.
 
 > Hint: Don't put your logic in one method. Separate it into multiple methods, and use class properties to share information between them
 
-## Assignment 9 - Multiple asteroids
+## Task 9 - Multiple asteroids
 
 One asteroid is not enough! Let's add more, to make it more interesting.
 
 1. Add a new asteroid (or multiple asteroids) in the browser at an interval of your choosing using another `setInterval` function
 
-## Assignment 10 - What other improvements would you make?
+## Task 10 - What other improvements would you make?
 
 So far it's looking great, but what if we want to take it further?
 
